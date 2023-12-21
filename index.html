@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FundMe</title>
+</head>
+
+<body>
+    <div id="front-ui" class="container">
+        <h2 id="main-text">FundMe UI</h2>
+        <button id="connect" class="btn"></button>
+    </div>
+    <div id="main-ui" class="container">
+        <div class="sect">
+            <span class="sub-heading">Send:</span>
+            <input name="send" placeholder="0.01" id="sendValue" />
+            <button id="send" class="btn"></button>
+        </div>
+        <div class="sect">
+            <span class="sub-heading">Withdraw:</span>
+            <button id="withdraw" class="btn"></button>
+        </div>
+        <div class="sect-2">
+            <div class="sect" style="width: 100%;">
+                <span class="sub-heading">Balance:</span>
+                <button id="checkBalance" class="btn"></button>
+            </div>
+            <p id="contractBalance"></p>
+        </div>
+    </div>
+    <script src="./index.js" type="module">
+    </script>
+</body>
+
+</html>
